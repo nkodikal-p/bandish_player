@@ -1,0 +1,104 @@
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif; /* Use a modern font */
+    color: #565656; /* Dark gray text color */
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center text inside elements */
+    flex-direction: column; /* Arrange items in a column */
+    display: flex; /* Use flexbox for layout */
+}
+.score-play-container {
+    display: flex;
+    /* Use flexbox to layout children */
+    align-items: center;
+    padding: 10px;
+    /* Set width to 50% */
+    font-family: Consolas, monospace;
+    font-size: 16px;
+    text-align: left;
+    /* Left-justify text */
+    padding: 10px;
+}
+.score-play-container h4 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+#score_text:focus {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+
+select, input {
+    font-size: inherit;
+    /* Inherit font size from body */
+    color: inherit;
+}
+
+#taaldisplay, #mindexDisplay {
+    display: flex;
+   flex-direction: row;
+   align-content: center;
+    font-size: inherit;
+}
+
+#taaldisplay h4 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+#taaldisplay #taal {
+    margin-top: 0;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.modern-button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: rgb(52, 52, 52);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 15px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 5px #999;
+    /* Add box shadow for 3D effect */
+    transition-duration: 0.1s;
+}
+
+.modern-button.red {
+    background-color: #fc5757;
+    /* Red */
+}
+
+.modern-button:active {
+    box-shadow: 0 5px #666;
+    /* Reduce box shadow when button is clicked */
+    transform: translateY(4px);
+    /* Move button down when clicked */
+}
+
+input[type="number"] {
+    width: 75px; /* Set width to auto */
+    padding: 5px; /* Add some padding */
+    text-align: center; /* Center the text */
+}
+
+.bpm-container {
+    display: flex;
+    align-items: center;
+}
+
+.bpm-button {
+    margin: 0 5px;
+}

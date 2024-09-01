@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>eTabla</title>
+</head>
+
+<body>
+  
+        <script src="apps.js"></script>
+
+    <br>
+    <h1>Bandish Player</h1>
+    <select id="bandishSelect">
+        <!-- Options will be populated by JavaScript from bandish -->
+    </select>                 
+        <h4> Sthayi</h4>
+       <div contenteditable="false" class="score-play-container"  id="sthayi">
+        <!-- Score will be populated by JavaScript -->
+        </div> 
+        <h4> Antara</h4>
+        <div contenteditable="false" class="score-play-container" id="antara">
+        <!-- Score will be populated by JavaScript -->
+        </div> 
+        <br>
+        <div id="taaldisplay">
+            <h4> Taal</h4>
+            <div id="taal">
+            <!-- Score will be populated by JavaScript -->
+            </div>
+        </div>
+        <!-- Display the matra index while playing -->
+        <div id="mindexDisplay"> </div>
+
+        <div id="taaldisplay">
+            <!-- Play Taal button-->
+            <button class="modern-button" id="playTaalButton">Play</button>
+
+            <!--  Stop button -->
+            <button class="modern-button red" id="stopTaalButton">Stop</button>
+        
+        </div>
+    <!-- Set bpm -->
+     <div id="bpmDisplay"> 
+    
+    <button class="bpm-button" id="decreaseBpmButton">-5</button>
+    <input type="number" id="bpm" placeholder="BPM" value="80" min="1" max="300">
+    <button class="bpm-button" id="increaseBpmButton">+5</button>
+    </div>
+<label for="bpm">Tempo</label>
+
+</body>
+
+</html>
