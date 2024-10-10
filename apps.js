@@ -22,7 +22,7 @@ var bandish = {
         taal:'Teentaal (16)'
     },
     'Purvi': {
-        sthayi: "G G M M G r G M <br>P d P M G m G - <br> M - G r - S S S <br> 'N r G G r S S S <br> 'N 'N S r G G M d <br> N r' N d P G,m G",
+        sthayi: "G G M M G r G M <br>P d P M G m G - <br> M - G r - S S S <br> 'N r G G r S S S <br> 'N 'N S r G G M d <br> N r' N d P M G,m G",
         antara: "M M G G M - d d <br> S' S' - S' - S' r' S' <br> N r' G M G' r' S' N <br> r' N d N d M M G <br> G m G - M d N S'<br> N r' N d P M G,m r,G",
         composer: "Traditional",
         lyrics: "Sthayi: Aeri Ai mein ko saba sukha deeno, itha-puta aur ana-dhana Laxmi, kirapa kar Govinda ranga deeno.<br> Antaraa: Agama apaarana juga nistaarana, kripa karana, dukha haran, sukh sadana saba vaatana mein laayaka keeno.",
@@ -82,7 +82,7 @@ function playPianoNotes(note1) {
 document.addEventListener('DOMContentLoaded', function () {
     // add bandish select dropdown to id bandishSelect
     var select = document.getElementById('bandishSelect');
-    var defaultBandish = 'Purvi'; // Set your default bandish here
+    var defaultBandish = 'Khamboji'; // Set your default bandish here
     for (var key in bandish) { // get all the keys in the bandish dictionary
         var option = document.createElement('option');
         option.textContent = key;
