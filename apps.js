@@ -20,6 +20,13 @@ var bandish = {
         composer: "Traditional",
         lyrics:"Ari Aeri aali piya bina, sakhi kala na parat mohe ghadi pala china dina <br> Jaba te piya parades gavan kina, ratiya katat mohe taare gina gina",
         taal:'Teentaal (16)'
+    },
+    'Purvi': {
+        sthayi: "G G M M G r G M <br>P d P M G m G - <br> M - G r - S S S <br> 'N r G G r S S S <br> 'N 'N S r G G M d <br> N r' N d P G,m G",
+        antara: "M M G G M - d d <br> S' S' - S' - S' r' S' <br> N r' G M G' r' S' N <br> r' N d N d M M G <br> G m G - M d N S'<br> N r' N d P M G,m r,G",
+        composer: "Traditional",
+        lyrics: "Sthayi: Aeri Ai mein ko saba sukha deeno, itha-puta aur ana-dhana Laxmi, kirapa kar Govinda ranga deeno.<br> Antaraa: Agama apaarana juga nistaarana, kripa karana, dukha haran, sukh sadana saba vaatana mein laayaka keeno.",
+        taal: 'Teentaal (16)'
     }
 }
 
