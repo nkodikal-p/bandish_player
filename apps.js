@@ -82,7 +82,7 @@ function playPianoNotes(note1) {
 document.addEventListener('DOMContentLoaded', function () {
     // add bandish select dropdown to id bandishSelect
     var select = document.getElementById('bandishSelect');
-    var defaultBandish = 'Khamboji'; // Set your default bandish here
+    var defaultBandish = 'Purvi'; // Set your default bandish here
     for (var key in bandish) { // get all the keys in the bandish dictionary
         var option = document.createElement('option');
         option.textContent = key;
