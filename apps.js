@@ -27,7 +27,15 @@ var bandish = {
         composer: "Traditional",
         lyrics: "Sthayi: Aeri Ai mein ko saba sukha deeno, itha-puta aur ana-dhana Laxmi, kirapa kar Govinda ranga deeno.<br> Antaraa: Agama apaarana juga nistaarana, kripa karana, dukha haran, sukh sadana saba vaatana mein laayaka keeno.",
         taal: 'Teentaal (16)'
+    },
+    'Malkauns_1': {
+        sthayi: " - - - - - - - - - - m g m d <br> d - m g S g m g - S 'd 'n S m <br> m m - g m d m g - S 'd 'n S m ",
+        antara: "g m - d - n n S' - - g' - S' - <br> S' g' m' g' S' S' - d d n d - m - <br> S' S' - n d m g m g S m g m d",
+        composer: "Traditional",
+        lyrics: "Sthayi:Ghara mere aayo ree aaja kaanha sughar khelan faaga.<br> Antaraa: Sanga sakhaa leenhe hori ke rang bheene dhan hai ri bhaaga.",
+        taal: 'Dhamaar (14)'
     }
+        
 }
 
 // Preload audio files
@@ -82,7 +90,7 @@ function playPianoNotes(note1) {
 document.addEventListener('DOMContentLoaded', function () {
     // add bandish select dropdown to id bandishSelect
     var select = document.getElementById('bandishSelect');
-    var defaultBandish = 'Purvi'; // Set your default bandish here
+    var defaultBandish = 'Khamboji'; // Set your default bandish here
     for (var key in bandish) { // get all the keys in the bandish dictionary
         var option = document.createElement('option');
         option.textContent = key;
