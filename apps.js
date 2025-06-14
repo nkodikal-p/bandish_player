@@ -7,37 +7,37 @@ var pianosounds = {
 
 //  bandish data
 var bandish = {
-    'Khamboji': {
+    'Khamboji/Jhaptaal': {
         sthayi: "m -,P G m S R m P D P,D <br>  R m P D S' R' S' n D P <br>  D S' n D P D m G m S <br>", 
         antara: "m P n S' P D S' R' G' S'   <br>  R' m' G' m',S' R' n D,n D S' S'  <br> S' n D P P R m P D,n D  <br> n D P D m P G G m S",
         composer: "Ramrang",
         lyrics:"Sthaayi: Baajat aaj kahan, daf mridanga changa jhaanj jhankaare <br> Antara: Galiyana galiyanaagar sugandha bhare, Raamrang kaake dwara aaj badhaavare",
         taal:'Jhaptaal (10)'
     },
-    'Yaman': {
+    'Yaman/Teentaal': {
         sthayi: "N D P - R - S S <br> G R G G - - G P <br> G P G P M D P P <br> N D P M R R S S <br> N - P - R - S -",
         antara: "P P S' S' S' - S' S' <br> S' - S' D N R' S' S' <br> N R' G' R' S' N P P <br> N - P - R R S S",
         composer: "Traditional",
         lyrics:"Ari Aeri aali piya bina, sakhi kala na parat mohe ghadi pala china dina <br> Jaba te piya parades gavan kina, ratiya katat mohe taare gina gina",
         taal:'Teentaal (16)'
     },
-    'Purvi': {
+    'Purvi/Teentaal': {
         sthayi: "G G M M G r G M <br>P d P M G m G - <br> M - G r - S S S <br> 'N r G G r S S S <br> 'N 'N S r G G M d <br> N r' N d P M G,m G",
         antara: "M M G G M - d d <br> S' S' - S' - S' r' S' <br> N r' G M G' r' S' N <br> r' N d N d M M G <br> G m G - M d N S'<br> N r' N d P M G,m r,G",
         composer: "Traditional",
         lyrics: "Sthayi: Aeri Ai mein ko saba sukha deeno, itha-puta aur ana-dhana Laxmi, kirapa kar Govinda ranga deeno.<br> Antaraa: Agama apaarana juga nistaarana, kripa karana, dukha haran, sukh sadana saba vaatana mein laayaka keeno.",
         taal: 'Teentaal (16)'
     },
-    'Malkauns_1': {
-        sthayi: " - - - - - - - - - - m g m d <br> d - m g S g m g - S 'd 'n S m <br> m m - g m d m g - S m g m d <br> - - - - - - - - - - m g m d <br> d - m g S g m g - S 'd 'n S m <br> m m - g m d m g - S m g m d <br> - - - - - - - - - - - - - -<br>",
-        antara: "g m - d - n n S' - - g' - S' - <br> S' g' m' g' S' S' - d d n d - m - <br> S' S' - n d m g m g S m g m d",
+    'Malkauns/Dhamaar': {
+        sthayi: " - - - - - - - - - - m g m d <br> d - m g S g m g - S 'd 'n S m <br> m m - g m d m g - S m g m d <br> d - m g S g m g - S 'd 'n S m <br> m m - g m d m g - S m g m d <br> - - - - - - - - - - - - - -<br>",
+        antara: "g m - d - n n S' - - g' - S' - <br> S' g' m' g' S' S' - d d n d - m - <br> S' S' - n d m g m g S m g m d <br> g m - d - n n S' - - g' - S' - <br> S' g' m' g' S' S' - d d n d - m - <br> S' S' - n d m g m g S m g m d ",
         composer: "Traditional",
         lyrics: "Sthayi:Ghara mere aayo ree aaja kaanha sughar khelan faaga.<br> Antaraa: Sanga sakhaa leenhe hori ke rang bheene dhan hai ri bhaaga.",
         taal: 'Dhamaar (14)'
     },
-    'Malkauns_2': {
-        sthayi: " - - - - - - - - - - m g m d <br> d - m g S g m g - S 'd 'n S m <br> m m - g m d m g - S m g m d <br> - - - - - - - - - - m g m d <br> d - m g S g m g - S 'd 'n S m <br> m m - g m d m g - S m g m d <br> - - - - - - - - - - - - - -<br>",
-        antara: "g m - d - n n S' - - g' - S' - <br> S' g' m' g' S' S' - d d n d - m - <br> S' S' - n d m g m g S m g m d",
+    'Malkauns/Deepchandi': {
+        sthayi: " - - - - - - - - - - m g m d <br> d - m g S g m g - S 'd 'n S m <br> m m - g m d m g - S m g m d <br> d - m g S g m g - S 'd 'n S m <br> m m - g m d m g - S m g m d <br> - - - - - - - - - - - - - -<br>",
+        antara: "g m - d - n n S' - - g' - S' - <br> S' g' m' g' S' S' - d d n d - m - <br> S' S' - n d m g m g S m g m d <br> g m - d - n n S' - - g' - S' - <br> S' g' m' g' S' S' - d d n d - m - <br> S' S' - n d m g m g S m g m d ",
         composer: "Traditional",
         lyrics: "Sthayi:Ghara mere aayo ree aaja kaanha sughar khelan faaga.<br> Antaraa: Sanga sakhaa leenhe hori ke rang bheene dhan hai ri bhaaga.",
         taal: 'Deepchandi (14)'
