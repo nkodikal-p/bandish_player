@@ -29,7 +29,7 @@ var bandish = {
         taal: 'Teentaal (16)'
     },
     'Malkauns_1': {
-        sthayi: " - - - - - - - - - - m g m d <br> d - m g S g m g - S 'd 'n S m <br> m m - g m d m g - S 'd 'n S m ",
+        sthayi: " - - - - - - - - - - m g m d <br> d - m g S g m g - S 'd 'n S m <br> m m - g m d m g - S m g m d <br> - - - - - - - - - - m g m d <br> d - m g S g m g - S 'd 'n S m <br> m m - g m d m g - S m g m d <br> - - - - - - - - - - - - - -<br>",
         antara: "g m - d - n n S' - - g' - S' - <br> S' g' m' g' S' S' - d d n d - m - <br> S' S' - n d m g m g S m g m d",
         composer: "Traditional",
         lyrics: "Sthayi:Ghara mere aayo ree aaja kaanha sughar khelan faaga.<br> Antaraa: Sanga sakhaa leenhe hori ke rang bheene dhan hai ri bhaaga.",
