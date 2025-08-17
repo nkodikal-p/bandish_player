@@ -41,7 +41,21 @@ var bandish = {
         composer: "Traditional",
         lyrics: "Sthayi:Ghara mere aayo ree aaja kaanha sughar khelan faaga.<br> Antaraa: Sanga sakhaa leenhe hori ke rang bheene dhan hai ri bhaaga.",
         taal: 'Deepchandi (14)'
-    }        
+    },
+    'Jogkauns/Ektaal': {
+        sthayi: " G m g S 'N S 'd - - 'N S G <br> G m d dN S' S' dNS'N dndP mG m <br> - - - - - - - - - - - - <br>",
+        antara: " G m - d - N S' S' - S' g' S' <br> d N S' G' - m' g' S' -Ng'S' NdPm <br> G m d N S' S' dNS'N dndP mG m ",
+        composer: "Ramshreya Jha",
+        lyrics: "Sthayi:Murat basee man mein saavari tihaari. <br> Antaraa: Mora mukuta sheesh latak kundala ko \"Ramrang\" lage pyaari.",
+        taal: 'Ektaal (12)'
+    }    
+//     G m - d - N S' S' - S' g' S'
+// d N S' G' - m' g' S' -Ng'S' NdPm
+// G m d N S' S' dNS'N dndP mG m
+
+// Sthai: Murat basee man mein saavari tihaari
+// Antaraa: Mora mukuta sheesh latak kundala ko "Ramrang" lage pyaari
+    
 }
 
 // Preload audio files
