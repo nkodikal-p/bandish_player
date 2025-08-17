@@ -43,8 +43,8 @@ var bandish = {
         taal: 'Deepchandi (14)'
     },
     'Jogkauns/Ektaal': {
-        sthayi: " G m g S 'N S 'd - - 'N S G <br> G m d dN S' S' dNS'N dndP mG m <br> - - - - - - - - - - - - <br>",
-        antara: " G m - d - N S' S' - S' g' S' <br> d N S' G' - m' g' S' -Ng'S' NdPm <br> G m d N S' S' dNS'N dndP mG m ",
+        sthayi: " G m g S 'N S 'd - - 'N S G <br> G m g S 'N S 'd - - 'N S G <br> G m d d,N S' S' d,N S',N d,n d,P m,G m <br> G m d d,N S' S' d,N S',N d,n d,P m,G m <br>  G m g S 'N S 'd - - 'N S G <br> - - - - - - - - - - - - <br>",
+        antara: " G m - d - N S' S' - S' g' S' <br> G m - d - N S' S' - S' g' S' <br> d N S' G' - m' g' S' -,N g',S' N,d P,m <br>  d N S' G' - m' g' S' -,N g',S' N,d P,m <br> G m d N S' S' d,N S',N d,n d,P m,G m <br> G m d N S' S' d,N S',N d,n d,P m,G m <br> G m g S 'N S 'd - - 'N S G <br> G m g S 'N S 'd - - 'N S G <br>",
         composer: "Ramshreya Jha",
         lyrics: "Sthayi:Murat basee man mein saavari tihaari. <br> Antaraa: Mora mukuta sheesh latak kundala ko \"Ramrang\" lage pyaari.",
         taal: 'Ektaal (12)'
@@ -99,8 +99,12 @@ function playTablaNotes(note1) {
 // Function to play a Piano note
 function playPianoNotes(note1) {
     var audio1 = preloadedPiano[note1]; // Use preloaded audio object
+    if (!audio1) {
+        console.error("Audio object for note", note1, "is undefined.");
+        return;
+    }
     audio1.currentTime = 0; // Rewind audio to the beginning
-    audio1.volume = 1.0; // Set volume to 25%
+    audio1.volume = 1.0; // Set volume to 100%
     audio1.play(); // Play piano sound
 }
 
