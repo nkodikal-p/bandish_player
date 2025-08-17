@@ -44,7 +44,7 @@ var bandish = {
     },
     'Jogkauns/Ektaal': {
         sthayi: " G m g S 'N S 'd - - 'N S G <br> G m g S 'N S 'd - - 'N S G <br> G m d d,N S' S' d,N S',N d,n d,P m,G m <br> G m d d,N S' S' d,N S',N d,n d,P m,G m <br>  G m g S 'N S 'd - - 'N S G <br> - - - - - - - - - - - - <br>",
-        antara: " G m - d - N S' S' - S' g' S' <br> G m - d - N S' S' - S' g' S' <br> d N S' G' - m' g' S' -,N g',S' N,d P,m <br>  d N S' G' - m' g' S' -,N g',S' N,d P,m <br> G m d N S' S' d,N S',N d,n d,P m,G m <br> G m d N S' S' d,N S',N d,n d,P m,G m <br> G m g S 'N S 'd - - 'N S G <br> G m g S 'N S 'd - - 'N S G <br>",
+        antara: " G m - d - N S' S' - S' g' S' <br> G m - d - N S' S' - S' g' S' <br> d N S' G' - m' g' S' -,N g',S' N,d P,m <br>  d N S' G' - m' g' S' -,N g',S' N,d P,m <br> G m d N S' S' d,N S',N d,n d,P m,G m <br> G m d N S' S' d,N S',N d,n d,P m,G m <br> G m g S 'N S 'd - - 'N S G <br> G m g S 'N S 'd - - 'N S G <br>  - - - - - - - - - - - - <br>",
         composer: "Ramshreya Jha",
         lyrics: "Sthayi:Murat basee man mein saavari tihaari. <br> Antaraa: Mora mukuta sheesh latak kundala ko \"Ramrang\" lage pyaari.",
         taal: 'Ektaal (12)'
@@ -303,5 +303,3 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('mindexDisplay').textContent = "  " // Clear matra index display
     });
 });
-
-
