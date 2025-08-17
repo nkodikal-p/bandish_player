@@ -114,7 +114,7 @@ function playPianoNotes(note1) {
 document.addEventListener('DOMContentLoaded', function () {
     // add bandish select dropdown to id bandishSelect
     var select = document.getElementById('bandishSelect');
-    var defaultBandish = 'Jogkauns'; // Set your default bandish here
+    var defaultBandish = 'Jogkauns/Ektaal'; // Set your default bandish here
     for (var key in bandish) { // get all the keys in the bandish dictionary
         var option = document.createElement('option');
         option.textContent = key;
@@ -303,4 +303,5 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('mindexDisplay').textContent = "  " // Clear matra index display
     });
 });
+
 
